@@ -1,0 +1,205 @@
+/* Genel Stil Ayarları */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3b5998;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #3b5998;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Auth Section */
+#auth-section {
+    max-width: 500px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form {
+    margin-bottom: 20px;
+}
+
+.auth-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+.auth-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.auth-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.auth-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.auth-form button a {
+    color: white;
+    text-decoration: none;
+}
+
+.auth-form p {
+    text-align: center;
+}
+
+.auth-form a {
+    color: #3b5998;
+}
+
+/* Hizmetler Bölümü */
+#services {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#services h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+form select,
+form button {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#serviceInfo {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#mapCanvas {
+    margin-top: 20px;
+}
+
+/* Ödeme Sayfası */
+#payment {
+    max-width: 500px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#payment h2 {
+    text-align: center;
+    color: #333;
+}
+
+#payment label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#payment input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#payment button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#payment button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+ 
